@@ -56,6 +56,9 @@
       <br><br>
        <router-link to="day04-2">
         vue学习第四天:vue过滤器
+      </router-link><br><br>
+      <router-link to="day05-1">
+        vue学习第四天:VueX
       </router-link>
     </h1>
   </div>

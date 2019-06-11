@@ -1,8 +1,7 @@
 <template>
   <div id="vue">
     {{message}}
-    <app-header :title="logmsg" @transferUser="getUser"><!---->
-      
+    <app-header :title="logmsg" @transferUser="getUser"><!---->  
     </app-header><!--父组件把logmsg的值传递给子组件的title--><p>用户名：{{user}}</p> 
     <app-user></app-user>
     <app-footer></app-footer>
