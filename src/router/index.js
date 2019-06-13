@@ -16,6 +16,7 @@ import vueday0304 from '@/components/day03/vueday0304'
 import vueday0401 from '@/components/day04/vueday0401'
 import vueday0402 from '@/components/day04/vueday0402'
 import vueday0501 from '@/components/day05/vueday0501'
+import vueday0502 from '@/components/day05/vueday0502'
 Vue.use(Router)
 
 export default new Router({
@@ -82,11 +83,14 @@ export default new Router({
       path: '/day04-2',
       name: 'vueday0402',
       component: vueday0402
-    }
-    ,{
+    },{
       path: '/day05-1',
       name: 'vueday0501',
       component: vueday0501
+    },{
+      path: '/day05-2',
+      name: 'vueday0502',
+      component: vueday0502
     }
   ]
 })

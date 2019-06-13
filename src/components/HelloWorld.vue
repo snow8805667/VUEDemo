@@ -59,6 +59,9 @@
       </router-link><br><br>
       <router-link to="day05-1">
         vue学习第四天:VueX
+      </router-link><br><br>
+      <router-link to="day05-2">
+        vue学习第四天:VueXDEmo购物车
       </router-link>
     </h1>
   </div>
