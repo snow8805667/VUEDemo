@@ -10,7 +10,7 @@
         vue学习第二天:计算属性和方法
       </router-link>
       <br/><br/>
-      <router-link to="day02-2">
+      <router-link :to="{path:'/day02-2',query:{userid:11111}}">
         vue学习第二天:class和style绑定
       </router-link>
       <br/><br/>
@@ -62,6 +62,9 @@
       </router-link><br><br>
       <router-link to="day05-2">
         vue学习第四天:VueXDEmo购物车
+      </router-link><br><br>
+      <router-link :to="{path:'/day06',query:{name:'zmm'}}">
+        vue学习第五天:VueRouter
       </router-link>
     </h1>
   </div>

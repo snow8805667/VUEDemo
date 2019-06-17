@@ -1,6 +1,7 @@
 <template>
   <div id="vue">
     {{message}}
+    {{$route.query.userid}}
     <div v-bind:class="{active:isActive}"></div>
     <input type="text" v-model="isActive" class="inputclass">
     <div>
