@@ -18,6 +18,8 @@ import vueday0402 from '@/components/day04/vueday0402'
 import vueday0501 from '@/components/day05/vueday0501'
 import vueday0502 from '@/components/day05/vueday0502'
 import vueday06 from '@/components/day06/vueday06'
+import Login from '@/components/day07/Login'
+import index from '@/components/day07/index'
 Vue.use(Router)
 
 export default new Router({
@@ -96,6 +98,14 @@ export default new Router({
       path: '/day06',
       name: 'vueday06',
       component: vueday06
+    },{
+      path: '/Login',
+      name: 'Login',
+      component: Login
+    },{
+      path: '/index',
+      name: 'index',
+      component: index
     }
   ]
 })

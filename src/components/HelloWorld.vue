@@ -58,13 +58,16 @@
         vue学习第四天:vue过滤器
       </router-link><br><br>
       <router-link to="day05-1">
-        vue学习第四天:VueX
+        vue学习第五天:VueX
       </router-link><br><br>
       <router-link to="day05-2">
-        vue学习第四天:VueXDEmo购物车
+        vue学习第五天:VueXDEmo购物车
       </router-link><br><br>
       <router-link :to="{path:'/day06',query:{name:'zmm'}}">
-        vue学习第五天:VueRouter
+        vue学习第六天:VueRouter
+      </router-link><br><br>
+      <router-link :to="{path:'/Login'}">
+        vue学习第七天:Vue练习单点登录
       </router-link>
     </h1>
   </div>
