@@ -18,7 +18,7 @@
     </div>
     <vue-Footer></vue-Footer>
   </div>
-</template>
+</template>`  `
 
 
 <script type="text/javascript">

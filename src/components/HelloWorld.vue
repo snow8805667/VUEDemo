@@ -68,6 +68,9 @@
       </router-link><br><br>
       <router-link :to="{path:'/Login'}">
         vue学习第七天:Vue练习单点登录
+      </router-link><br><br>
+       <router-link :to="{path:'/websocket'}">
+        vue学习第八天:Vue webSocket练习
       </router-link>
     </h1>
   </div>

@@ -22,6 +22,7 @@ import Login from '@/components/day07/Login'
 import index from '@/components/day07/index'
 import update from '@/components/day07/update'
 import add from '@/components/day07/add'
+import websocket from '@/components/day08/websocket'
 Vue.use(Router)
 
 export default new Router({
@@ -116,6 +117,11 @@ export default new Router({
       path: '/add',
       name: 'add',
       component: add
+    },{
+      path: '/websocket',
+      name: 'websocket',
+      component: websocket
     }
+
   ]
 })
