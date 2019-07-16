@@ -58,8 +58,6 @@ export default {
         }
       },
       webSocketSend() {
-        //数据发送
-        debugger;
         var message=this.Message;
         this.webSocket.send(message);
       },

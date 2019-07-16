@@ -9,6 +9,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 
 var axios=require('axios');
 axios.defaults.baseURL='http://localhost:8081'
+axios.defaults.headers.common['Authorization'] = localStorage.getItem('token');
 Vue.prototype.$axios=axios;
 Vue.config.productionTip = false
 Vue.use(Element)

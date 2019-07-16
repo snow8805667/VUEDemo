@@ -47,15 +47,12 @@ export default {
   methods:{
     login(){
         this.$axios.post('/login',{
-          userName:this.userName,
+          username:this.userName,
           password:this.password,
         }).then(successResponse=>{
-          if(successResponse.data.code=='200'){
-            debugger;
+             debugger;
+             localStorage.setItem("token", successResponse.data.token);
             this.$router.replace({path:'/index'});
-          }else{
-            this.responseResult=successResponse.data.message;
-          }
         }).catch(failResoponse=>{})
     }
 
