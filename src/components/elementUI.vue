@@ -2,11 +2,11 @@
   <div class="hello">
     <h1>{{ msg }}</h1><br/>
     <h1 class="vueclass"> 
-      <router-link to="/vuestudy">
-        vue基础知识学习
-      </router-link><br/><br/>
-       <router-link to="/elementUI">
-        vue-elementUI基础知识学习
+      <router-link to="day09">
+        vue学习第九天:了解vue-elementUI布局
+      </router-link>|
+      <router-link to="day09-2">
+        vue学习第九天(二):了解vue-elementUI布局
       </router-link>
     </h1>
   </div>
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'vuestudy',
   data () {
     return {
       msg: 'Welcome to Your Vue.js study'
@@ -43,6 +43,8 @@ a {
   color: #42b983;
 }
 .vueclass{
+  float: left;
   font-size: 30px;
+  padding-left: 70px;
 }
 </style>

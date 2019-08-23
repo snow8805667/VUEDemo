@@ -12,7 +12,7 @@ axios.defaults.baseURL='http://localhost:8081'
 axios.defaults.headers.common['Authorization'] = localStorage.getItem('token');
 Vue.prototype.$axios=axios;
 Vue.config.productionTip = false
-Vue.use(Element)
+Vue.use(Element, { size: 'small', zIndex: 3000 })
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

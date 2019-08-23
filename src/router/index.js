@@ -10,6 +10,10 @@ export default new Router({
       name: 'HelloWorld',
       component:()=>import ('@/components/HelloWorld'),
     },{
+      path: '/elementUI',
+      name: 'elementUI',
+      component:()=>import ('@/components/elementUI'),
+    },{
       path: '/vuestudy',
       name: 'vuestudy',
       component: ()=>import ('@/components/vuestudy'),
@@ -103,6 +107,14 @@ export default new Router({
       path: '/websocket',
       name: 'websocket',
       component:()=>import ('@/components/day08/websocket'),
+    },{
+      path: '/day09',
+      name: 'day09',
+      component:()=>import ('@/components/day09/layout01'),
+    },{
+      path: '/day09-2',
+      name: 'day09-2',
+      component:()=>import ('@/components/day09/layout02'),
     }
 
   ]
