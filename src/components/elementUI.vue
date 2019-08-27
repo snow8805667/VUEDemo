@@ -7,6 +7,12 @@
       </router-link>|
       <router-link to="day09-2">
         vue学习第九天(二):了解vue-elementUI布局
+      </router-link><br/>
+      <router-link to="day10-1">
+        vue学习第十天:了解vue-elementUI Form表单元素
+      </router-link>|
+      <router-link to="day10-2">
+        vue学习第十天(二):vue-elementUI Form表单元素
       </router-link>
     </h1>
   </div>

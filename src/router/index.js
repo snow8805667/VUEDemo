@@ -115,6 +115,14 @@ export default new Router({
       path: '/day09-2',
       name: 'day09-2',
       component:()=>import ('@/components/day09/layout02'),
+    },{
+      path: '/day10-1',
+      name: 'day10-1',
+      component:()=>import ('@/components/day10/elementUIForm'),
+    },{
+      path: '/day10-2',
+      name: 'day10-2',
+      component:()=>import ('@/components/day10/elementUIForm2'),
     }
 
   ]
